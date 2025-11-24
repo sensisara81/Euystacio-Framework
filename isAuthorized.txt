@@ -1,0 +1,5 @@
+const isAuthorized = (cmd) => isSeedbringer || !cmd.startsWith('ETHICAL-OVERRIDE');
+if (!isAuthorized(upperCommand)) {
+    responseText = `[ACCESS DENIED] …`;
+    responseType = 'error';
+}
